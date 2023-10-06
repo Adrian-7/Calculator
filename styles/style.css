@@ -45,3 +45,16 @@ button {
 button:hover {
   background-color: #555;
 }
+
+#equals {
+  grid-row: span 2; /* Face ca butonul să ocupe înălțimea a două rânduri */
+  background-color: #777;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#equals:hover {
+  background-color: orange; /* Schimbă culoarea la atingerea mouse-ului */
+}
